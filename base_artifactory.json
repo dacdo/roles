@@ -1,0 +1,9 @@
+{
+  "name": "base-artifactory",
+  "chef_type": "role",
+  "description": "Default run_list for inspec",
+  "run_list": [
+    "recipe[chef-client::default]",
+    "recipe[audit-artifactory::default]"
+  ]
+}

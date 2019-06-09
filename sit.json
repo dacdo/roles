@@ -1,0 +1,14 @@
+{
+  "name": "sit",
+  "chef_type": "environment",
+  "description": "Attributes for sit nodes",
+  "default_attributes": {
+    "audit-artifactory":  {
+      "profiles":  {
+         "linux-baseline": {
+           "base_url" : "http://13.239.16.84:8081/artifactory"
+         }
+      }
+    }
+  }
+}

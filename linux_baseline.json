@@ -1,0 +1,19 @@
+{
+  "name": "linux-baseline-artifactory",
+  "description": "Attributes for linux nodes",
+  "chef_type": "role",
+  "run_list": [
+    "role[base-artifactory]"
+  ],
+  "default_attributes": {
+    "audit-artifactory":  {
+      "profiles":  {
+        "linux-baseline":  {
+          "version":  "latest",
+          "group": "ub",
+          "repo":  "UB-INSPEC-SIT"
+        }
+      }
+    }
+  }
+}
