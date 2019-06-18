@@ -10,8 +10,7 @@
       "profiles":  {
         "linux-baseline":  {
           "version":  "latest",
-          "group": "ub",
-          "repo":  "UB-INSPEC-SIT"
+          "group": "ub"
         }
       }
     }
